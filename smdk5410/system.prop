@@ -5,4 +5,4 @@
 ro.arch=exynos5410
 ro.kernel.qemu=1
 ro.kernel.qemu.gles=1
-persist.demo.hdmirotationlock=true
+persist.demo.hdmirotationlock=false

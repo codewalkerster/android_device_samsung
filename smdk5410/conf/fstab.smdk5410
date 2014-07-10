@@ -7,7 +7,4 @@
 /dev/block/mmcblk0p2    /system             ext4      ro                                                    wait
 /dev/block/mmcblk0p4    /cache              ext4      noatime,nosuid,nodev,nomblk_io_submit,errors=panic    wait
 /dev/block/mmcblk0p3    /data               ext4      noatime,nosuid,nodev,nomblk_io_submit,noauto_da_alloc,errors=panic,discard    wait
-/devices/platform/dw_mmc.2/mmc_host/mmc2	auto	vfat	defaults	voldmanaged=sdcard1:auto
-/devices/platform/s5p-ehci                      auto       auto    defaults    voldmanaged=usb1:auto
-/devices/platform/exynos-dwc3.0/exynos-xhci.0   auto       auto    defaults    voldmanaged=usb2:auto
-/devices/platform/exynos-dwc3.1/exynos-xhci.1   auto       auto    defaults    voldmanaged=usb3:auto  
+

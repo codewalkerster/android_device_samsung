@@ -12,7 +12,7 @@
 ## <sysfs_path> - List of sysfs paths to source devices
 ######################
 
-#dev_mount sdcard1 /storage/sdcard1 auto /devices/platform/dw_mmc.2/mmc_host/mmc2
-#dev_mount usb /storage/usb1 auto /devices/platform/s5p-ehci
-#dev_mount usb /storage/usb2 auto /devices/platform/exynos-dwc3.0/exynos-xhci.0
-#dev_mount usb /storage/usb3 auto /devices/platform/exynos-dwc3.1/exynos-xhci.1
+dev_mount sdcard1 /storage/sdcard1 auto /devices/platform/dw_mmc.2/mmc_host/mmc1
+dev_mount usb /storage/usb1 auto /devices/platform/s5p-ehci
+dev_mount usb /storage/usb2 auto /devices/platform/exynos-dwc3.0/exynos-xhci.0
+dev_mount usb /storage/usb3 auto /devices/platform/exynos-dwc3.1/exynos-xhci.1
