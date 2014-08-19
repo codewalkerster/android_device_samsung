@@ -1,0 +1,8 @@
+#
+# system.prop for xyref5422
+#
+
+ro.arch=exynos5422
+ro.kernel.qemu=1
+ro.kernel.qemu.gles=1
+persist.hdmi.hdcp_enabled=1
